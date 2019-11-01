@@ -1,0 +1,14 @@
+%YAML:1.0
+
+# 是否是文件路径读取，true 从文件中读取照片， false 从摄像头中读取照片
+isFile: true
+
+# 文件路径
+imgPath: "xxxx"
+
+# 标定文件的路径
+filePath: "xxx"
+
+# 摄像头索引号
+videoIndex: 0
+

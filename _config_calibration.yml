@@ -1,0 +1,26 @@
+%YAML:1.0
+
+#  是否是文件路径读取，true 从文件中读取照片， false 从摄像头中读取照片
+isFile: true
+# 标定板类型，1 -> 棋盘格；2 -> 圆网格; 3-> 非对称圆网格
+type: 1
+
+# 标定板的大小
+patternSize:
+  width: 4
+  height: 11
+
+# 间距
+spacing: 30
+
+# 保存标定结果的路径
+saveFileName: "params.yml"
+
+# 文件路径
+imgPath: "xxxx"
+
+# 视频模式
+# 摄像头索引
+videoIndex: 0
+# 采样数
+videoCount: 15
